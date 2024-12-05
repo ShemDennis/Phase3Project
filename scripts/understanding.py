@@ -1,5 +1,7 @@
 import pandas as pd
 import numpy as np
+import warnings
+warnings.filterwarnings('ignore')
 
 # Confirm the number of null values in the dataset, include ('-') 
 def null_in_dataset(df):

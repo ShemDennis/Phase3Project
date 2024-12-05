@@ -1,5 +1,7 @@
 import seaborn as sns
 import matplotlib.pyplot as plt
+import warnings
+warnings.filterwarnings('ignore')
 
 def plot_histogram(data, column, bins=10):
     plt.figure(figsize=(10, 6))
