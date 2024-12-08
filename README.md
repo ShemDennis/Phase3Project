@@ -99,6 +99,6 @@ This project utilizes publicly available data and leverages the collective work 
 
 For further inquiries, please contact:
 
-**Email**: [dennis.limo@student.moringaschool.com]  
-**GitHub**: [https://github.com/your-username](https://github.com/ShemDennis)
+**Email**: [My Mail](dennis.limo@student.moringaschool.com)  
+**GitHub**: [GitHub Link](https://github.com/ShemDennis)
 
