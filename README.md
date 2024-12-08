@@ -28,7 +28,7 @@ The dataset used in this project contains **61,980 records** and **23 features**
 
 ## Key Findings
 
-- **Racial Bias**: Black and Hispanic individuals are disproportionately stopped by law enforcement.
+- **Racial Bias**: There are more whites in the police force compared to all other demographic groups.
 - **Gender Disparity**: Males are significantly more likely to be stopped compared to females.
 - **Effectiveness of Stops**: The majority of stops result in **Field Contact** (no formal action), with only **6%** leading to arrests.
 - **Officer Demographics**: The racial and gender composition of officers impacts their decisions to initiate Terry stops, with White officers predominantly interacting with Black and Hispanic subjects.
@@ -42,7 +42,7 @@ The dataset used in this project contains **61,980 records** and **23 features**
 ### Data Cleaning and Preprocessing:
 - **Missing Data**: Handled by imputing missing values for categorical features using the **mode** and **"Unknown"** for geographic columns.
 - **Outliers**: Identified and removed based on **box plots** and **percentile filtering**.
-- **Categorical Data**: Encoded using **Label Encoding** to convert non-numeric data into a machine-learning-friendly format.
+- **Categorical Data**: Encoded using **Label Encoding** and **One Hot Encoding** to convert non-numeric data into a machine-learning-friendly format.
 
 ### Exploratory Data Analysis (EDA):
 - Analyzed **age**, **gender**, and **race** distributions for both subjects and officers.
